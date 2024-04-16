@@ -513,6 +513,15 @@
      background-color:  rgba(46, 47, 66, 0.4);
      position: fixed;
      top: 0;
+     opacity: 0;
+     pointer-events: none;
+     visibility: hidden;
+  }
+
+  .is-open{
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
   }
 
   .modal{
@@ -543,6 +552,7 @@
 
 
   }
+
 
   .modal-title {
     font-weight: 500;
@@ -621,9 +631,41 @@
     color: rgba(46, 47, 66, 0.4);
   }
 
+  .check-text{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    margin-left: ;
 
+  }
 
-  
-  
+  .modal-pravacy{
+    line-height: 133%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #4d5ae5;
+  }
+
+  .btn-close-modal{
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+    position: relative;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #ffffff;
+  }
+ 
  
  
