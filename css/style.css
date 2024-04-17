@@ -765,7 +765,7 @@
   fill: transparent;
 }
 
-.modal-privacy > svg {
+.modal-privacy  {
     width: 16px;
     height: 16px; 
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -777,7 +777,7 @@
     fill: transparent;
 }
 
-.visually-hidden:checked + .check-text .modal-privacy > svg {
+.visually-hidden:checked + .check-text .modal-privacy {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
