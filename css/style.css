@@ -719,6 +719,10 @@
     fill: #F4F4FD;
 }
 
+    .privacy-link{
+      color: #4d5ae5; 
+    }
+
   .btn-close-modal{
     display: block;
     min-width: 169px;
