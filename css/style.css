@@ -157,6 +157,7 @@
       rgba(46, 47, 66, 0.7)),
       url("../images/people-office.jpg");
      max-width: 1440px; 
+     margin: 0 auto;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -299,6 +300,7 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
   
   }
 
@@ -359,7 +361,7 @@
     padding: 0;
   }
 
-  .list-team .img-list:first-child {
+  .img-list{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
@@ -517,7 +519,7 @@
     align-items: center;
 }
 
-.teams-dream-foot {
+.teams-dream-foot-side {
     margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
